@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>7</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>RegisterFile</elementName>
@@ -9,6 +20,10 @@
         <entry>
           <string>AddrBits</string>
           <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Registro</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -75,7 +90,12 @@
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
       <pos x="280" y="560"/>
     </visualElement>
     <visualElement>
