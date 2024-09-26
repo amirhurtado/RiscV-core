@@ -411,11 +411,6 @@
       <pos x="320" y="700"/>
     </visualElement>
     <visualElement>
-      <elementName>NotConnected</elementName>
-      <elementAttributes/>
-      <pos x="960" y="360"/>
-    </visualElement>
-    <visualElement>
       <elementName>Probe</elementName>
       <elementAttributes/>
       <pos x="1000" y="640"/>
@@ -463,6 +458,20 @@
         </entry>
       </elementAttributes>
       <pos x="1220" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="360"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -531,7 +540,7 @@
       <p2 x="640" y="360"/>
     </wire>
     <wire>
-      <p1 x="960" y="360"/>
+      <p1 x="980" y="360"/>
       <p2 x="1000" y="360"/>
     </wire>
     <wire>
