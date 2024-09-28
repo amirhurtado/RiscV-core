@@ -28,7 +28,7 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\amirh\OneDrive\Documentos\GitHub\RiscV-core\instrucs.hex</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscV-core\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -82,12 +82,12 @@
           <string>out</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>bin</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="780" y="340"/>
