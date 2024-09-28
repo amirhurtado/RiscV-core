@@ -3369,7 +3369,7 @@
           <string>lui</string>
         </entry>
       </elementAttributes>
-      <pos x="720" y="2120"/>
+      <pos x="740" y="2120"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -5207,6 +5207,16 @@
       </elementAttributes>
       <pos x="660" y="-100"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>lui?</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="2160"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -5542,6 +5552,10 @@
       <p2 x="720" y="2120"/>
     </wire>
     <wire>
+      <p1 x="720" y="2120"/>
+      <p2 x="740" y="2120"/>
+    </wire>
+    <wire>
       <p1 x="500" y="-1100"/>
       <p2 x="520" y="-1100"/>
     </wire>
@@ -5820,6 +5834,10 @@
     <wire>
       <p1 x="620" y="-880"/>
       <p2 x="640" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="2160"/>
+      <p2 x="760" y="2160"/>
     </wire>
     <wire>
       <p1 x="600" y="-1140"/>
@@ -6720,6 +6738,10 @@
     <wire>
       <p1 x="720" y="1040"/>
       <p2 x="720" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="2120"/>
+      <p2 x="720" y="2160"/>
     </wire>
     <wire>
       <p1 x="1880" y="-820"/>
