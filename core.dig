@@ -926,7 +926,12 @@
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="1040" y="340"/>
     </visualElement>
     <visualElement>
