@@ -5247,6 +5247,20 @@
       </elementAttributes>
       <pos x="1840" y="2460"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>jal</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1820" y="2460"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -6022,7 +6036,7 @@
       <p2 x="520" y="-1180"/>
     </wire>
     <wire>
-      <p1 x="1700" y="2460"/>
+      <p1 x="1820" y="2460"/>
       <p2 x="1840" y="2460"/>
     </wire>
     <wire>
@@ -6832,10 +6846,6 @@
     <wire>
       <p1 x="1700" y="2320"/>
       <p2 x="1700" y="2360"/>
-    </wire>
-    <wire>
-      <p1 x="1700" y="2360"/>
-      <p2 x="1700" y="2460"/>
     </wire>
     <wire>
       <p1 x="1640" y="-820"/>

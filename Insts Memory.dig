@@ -23,12 +23,8 @@
           <int>8</int>
         </entry>
         <entry>
-          <string>Data</string>
-          <data>0,31,0,b3</data>
-        </entry>
-        <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscV-core\bin.bin</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscVCoreV2\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -117,7 +113,7 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\amirh\OneDrive\Documentos\GitHub\RiscV-core\instrucs.hex</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscVCoreV2\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -155,7 +151,7 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\amirh\OneDrive\Documentos\GitHub\RiscV-core\instrucs.hex</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscVCoreV2\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -193,7 +189,7 @@
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\amirh\OneDrive\Documentos\GitHub\RiscV-core\instrucs.hex</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscVCoreV2\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
