@@ -6,7 +6,7 @@
     <visualElement>
       <elementName>sync.dig</elementName>
       <elementAttributes/>
-      <pos x="400" y="320"/>
+      <pos x="640" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>textMode.dig</elementName>
@@ -40,18 +40,18 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="320"/>
+      <pos x="620" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>ScreenRam</string>
-        </entry>
-        <entry>
           <string>AddrBits</string>
           <int>12</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ScreenRam</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -130,7 +130,7 @@
     <visualElement>
       <elementName>VGA</elementName>
       <elementAttributes/>
-      <pos x="1180" y="460"/>
+      <pos x="1220" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -175,12 +175,27 @@
       </elementAttributes>
       <pos x="1000" y="460"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VGA.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="420"/>
+    </visualElement>
   </visualElements>
   <wires>
-    <wire>
-      <p1 x="380" y="320"/>
-      <p2 x="400" y="320"/>
-    </wire>
     <wire>
       <p1 x="340" y="80"/>
       <p2 x="360" y="80"/>
@@ -190,8 +205,24 @@
       <p2 x="1020" y="400"/>
     </wire>
     <wire>
+      <p1 x="740" y="400"/>
+      <p2 x="900" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="480"/>
+      <p2 x="1020" y="480"/>
+    </wire>
+    <wire>
       <p1 x="720" y="180"/>
       <p2 x="880" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="500"/>
+      <p2 x="1220" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="500"/>
+      <p2 x="1020" y="500"/>
     </wire>
     <wire>
       <p1 x="160" y="360"/>
@@ -210,6 +241,14 @@
       <p2 x="660" y="200"/>
     </wire>
     <wire>
+      <p1 x="620" y="380"/>
+      <p2 x="640" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="380"/>
+      <p2 x="800" y="380"/>
+    </wire>
+    <wire>
       <p1 x="860" y="220"/>
       <p2 x="880" y="220"/>
     </wire>
@@ -222,8 +261,16 @@
       <p2 x="1020" y="460"/>
     </wire>
     <wire>
+      <p1 x="800" y="380"/>
+      <p2 x="800" y="500"/>
+    </wire>
+    <wire>
       <p1 x="900" y="220"/>
       <p2 x="900" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="400"/>
+      <p2 x="900" y="480"/>
     </wire>
   </wires>
   <measurementOrdering/>

@@ -23,8 +23,12 @@
           <int>8</int>
         </entry>
         <entry>
+          <string>Data</string>
+          <data>1,49</data>
+        </entry>
+        <entry>
           <string>lastDataFile</string>
-          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscVCoreV2\bin.bin</file>
+          <file>C:\Users\juanb\OneDrive\Documentos\GitHub\RiscV-core\bin.bin</file>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -109,7 +113,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>0,31,0,b3</data>
+          <data>0,49,0,b3</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
@@ -147,7 +151,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>0,31,0,b3</data>
+          <data>0,31,89,b3</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
@@ -185,7 +189,7 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>0,31,0,b3</data>
+          <data>0,31,0,33</data>
         </entry>
         <entry>
           <string>lastDataFile</string>

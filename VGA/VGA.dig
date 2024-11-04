@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes>
     <entry>
       <string>Width</string>
@@ -119,11 +119,6 @@
       <pos x="980" y="220"/>
     </visualElement>
     <visualElement>
-      <elementName>core.dig</elementName>
-      <elementAttributes/>
-      <pos x="700" y="140"/>
-    </visualElement>
-    <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
       <pos x="580" y="0"/>
@@ -222,6 +217,11 @@
         </entry>
       </elementAttributes>
       <pos x="320" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>coreV.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
