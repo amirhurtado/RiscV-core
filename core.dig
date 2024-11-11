@@ -622,7 +622,7 @@
       <elementAttributes>
         <entry>
           <string>intFormat</string>
-          <intFormat>bin</intFormat>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
       <pos x="420" y="480"/>
